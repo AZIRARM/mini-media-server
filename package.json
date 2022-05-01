@@ -1,0 +1,36 @@
+{
+  "name": "mini-media-server",
+  "version": "0.0.1",
+  "description": "A mini media server to save and serve small content like pictures, documents, ... for websites",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AZIRARM/mini-media-server.git"
+  },
+  "keywords": [
+    "pictures",
+    "website",
+    "media-server",
+    "documents",
+    "medias",
+    "serve-documents",
+    "serve-medias"
+  ],
+  "author": "ITExpert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AZIRARM/mini-media-server/issues"
+  },
+  "homepage": "https://github.com/AZIRARM/mini-media-server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  }
+}
