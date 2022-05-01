@@ -25,7 +25,7 @@ router.post('/medias', checkAuthorization, (req, resp) => {
     let fileName = uuidv4()+'.'+body.extension;
     saveDocument(body.data, fileName);
     resp.statusCode = 200;
-    resp.send(process.env.MEDIA_SERVER_URL+"/"+fileName);
+    resp.send(fileName);
 
 });
 router.get('/medias/:fileName', checkAuthorization, (req, resp) => {
